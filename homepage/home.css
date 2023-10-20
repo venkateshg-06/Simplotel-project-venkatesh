@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+body {
+    font-family: "Roboto";
+}
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+   
+}
+
+nav ul {
+    float: left;
+    margin-right: 8px;
+    padding: 0 100px;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 80px;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.icons-conatiner{
+ float: right;
+ line-height: 80px;
+ margin-right: 20px;
+
+}
+.font-icon{
+    font-size: 22px;
+    padding-right: 20px;
+}
+#icon {
+    line-height: 80px;
+    font-size: 26px;
+    float: left;
+    margin-left: 40px;
+    display: none;
+}
+@media (max-width:769px) {
+    #icon {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 80vh;
+        top: 80px;
+        right: 0;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        line-height: 20px;
+        margin: 50px 0;
+    }
+}
+.active, nav li a:hover {
+    color: #3498db;
+}
+
+.home-bg-container {
+    background-image: url("https://res.cloudinary.com/dmqxmhvut/image/upload/v1697714741/home-img.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Roboto";
+
+}
+.home-card-container{
+    background-color:rgba(223,138,135,0.6);
+    min-height: 200px;
+    width: 50%;
+    padding: 20px;
+    align-self: center;
+
+}
+@media (min-width:769px) {
+    .home-card-container{
+        align-self: flex-start;
+        margin-left: 20px;
+        width: 40%;
+    }
+    
+}
+.card-heading{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.card-description {
+    color: #ffffff;
+    font-size:16px;
+
+}
+@media (min-width:769px){
+    .card-heading{
+        font-size: 40px;
+    }
+    .card-description {
+        font-size:20px ;
+    }
+
+}
+.bottom-style  {
+    background-image: linear-gradient(to right, #fc60e2, #ffe959);
+    height: 6vh;
+}
+
+
+
+
+
